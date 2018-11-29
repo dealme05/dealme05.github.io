@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     
-    /*background-image: url(images/mainbanner.jpg);*/
+    background-image: url(images/mainbanner.jpg);
     background-size: cover;
     /*background-size: contain;*/ 
     background-repeat: no-repeat;
