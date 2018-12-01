@@ -7,9 +7,6 @@ h1 {
     color:white!important;
 }
 /* this is useful to see clearly the design of the table*/
-div {
-    border:1px solid blue;
-}
 
 .btn-primary {
     color: #fff;
@@ -18,7 +15,7 @@ div {
 }
 
 .jumbotron {
-background-color: aqua
+background-color: aqua;
 
 }
 
@@ -28,4 +25,9 @@ background-color: aqua
 
 .my_link {
     color:black
+}
+
+.general_spacing
+{
+margin-top:30px;
 }
