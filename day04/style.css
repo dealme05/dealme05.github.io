@@ -21,3 +21,11 @@ div {
 background-color: aqua
 
 }
+
+.my_link:hover{
+    text-decoration:none;
+}
+
+.my_link {
+    color:black
+}
