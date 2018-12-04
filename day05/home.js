@@ -27,15 +27,42 @@ firstName="Aidil";
 lastName="Johari";
 space=" "
 var fullName = firstName + space + lastName;
-
 console.log(fullName);
 
 var fullName1 = firstName + " " + lastName;
-
 console.log(fullName1);
 
 var qty = 2;
 var total = 200;
 var qtyTotal = qty + total;
-
 console.log(qtyTotal);
+
+var firstNumber;
+var secondNumber;
+var totalNumber;
+
+firstNumber = 10;
+secondNumber = "10";
+totalNumber = firstNumber + secondNumber;
+console.log(totalNumber);
+
+var compareResult;
+compareResult = (firstNumber == secondNumber); /* == compares teh value but not the type of variable*/
+console.log(compareResult);
+
+compareResult = (firstNumber === secondNumber); /* === compares teh value and the type of variable*/
+console.log(compareResult);
+
+
+var testA = "Singapore";
+var testB = "Singapore";
+var compareTest = (testA != testB);
+console.log(compareTest);
+
+
+/* the below links wth the html input ID*/
+
+var myHTMLValue;
+
+myHTMLValue = document.getElementById("my_name").value;/* go and get the element my_name and the value*/
+console.log(myHTMLValue);
