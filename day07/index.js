@@ -29,7 +29,7 @@ function calculate() {
     //morning, afternoon, evening
 var greet;
 
-greet = "";
+greet = "morning";
 
     if(greet == "morning"){
         console.log("This is Morning");
@@ -50,29 +50,29 @@ greet = "";
 function output() {
     var inputA;
     var inputB;
-    var total;
+    var answer;
     var operator;
 
-    firstNumber = document.getElementById("inputA").value;
-    secondNumber = document.getElementById("inputB").value;
+    inputA = document.getElementById("inputA").value;
+    inputB = document.getElementById("inputB").value;
     operator = document.getElementById("operator").value;
 
     if(operator == "+"){
-        total = parseInt(inputA) + parseInt(inputB);      
+        answer = parseInt(inputA) + parseInt(inputB);      
     }
     else if(operator == "-"){
-        total = parseInt(inputA) - parseInt(inputB);
+        answer = parseInt(inputA) - parseInt(inputB);
     }
     else if(operator == "/"){
-        total = parseInt(inputA) / parseInt(inputB);
+        answer = parseInt(inputA) / parseInt(inputB);
     }
     else if(operator == "*"){
-        total = parseInt(inputA) * parseInt(inputB);
+        answer = parseInt(inputA) * parseInt(inputB);
     }
     
-    document.getElementById("showResult2").value = total;
+    document.getElementById("showResult2").value = answer;
 }
-
+/*
 //4 function
 
 var greetings = ["Morning", "Afternoon", "Evening"];
@@ -113,6 +113,6 @@ while( step < numbers.length ){
 }
 
 
-
+*/
 
 
