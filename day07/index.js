@@ -72,7 +72,7 @@ function output() {
     
     document.getElementById("showResult2").value = answer;
 }
-/*
+
 //4 function
 
 var greetings = ["Morning", "Afternoon", "Evening"];
@@ -90,6 +90,8 @@ var greetings = ["Morning", "Afternoon", "Evening"];
             console.log(primeNumber[step]);
             step = step + 1;
         }
+/*
+
 
 var numbers = [1,2,3,4,5,6,78,9,10];
 
