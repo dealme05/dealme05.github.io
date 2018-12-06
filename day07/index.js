@@ -83,7 +83,7 @@ var greetings = ["Morning", "Afternoon", "Evening"];
         console.log(greetings[2]);
 
         var primeNumber = [1, 3, 5, 7, 9, 12, 15];
-        console.log(primeNumber.[length - 1]);
+        console.log(primeNumber.length - 1);
 
         var step = 0;
         while(step < primeNumber.length){
@@ -103,9 +103,10 @@ step = 0;
 while( step < numbers.length ){
     var isEven = numbers[step] % 2;
 
-    if isEven == 0){
+    if isEven == 0 {
         console.log(numbers[step] + " is even number");
-    }else{
+    }
+    else{
         console.log(numbers[step] + " is not even number");
     }
     step = step + 1
