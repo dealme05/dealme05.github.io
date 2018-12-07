@@ -118,3 +118,59 @@ while( step < numbers.length ){
 */
 
 
+// function to show a for loop
+var numbers_2 = [1,2,3,4,5,6,7,8,9,10];
+for ( var a =0; a < numbers_2.length; a++ ) {
+console.log(numbers_2[a]);
+    
+}
+
+
+// eg to show a oush value into an array
+
+var collections = [];
+console.log(collections); // see rusult of an innitialised array
+
+
+collections.push("Test", 1, "a");
+console.log(collections); // see result of an assigned push array
+
+
+collections.push("Test of value");
+console.log(collections); // see result of an assigned push array
+
+
+// a function to display in predefined box element ID
+// var must be defined outside the function else it values will be flushed everytime the function is called
+// instead define the var first then everytime function is called, it will push value in the array
+var myCollections = [];
+
+function addMe(){
+    var myText = document.getElementById("myText").value;
+    myCollections.push(myText);
+    document.getElementById("myResult").innerHTML = myCollections // how to display a value in the html element
+
+}
+
+// document.getElementById("myResult").value = answer; // use [value] how to display a value in a box in the html page
+
+// document.getElementById("myResult").innerHTML = answer; // use [innerHTML] how to display a value in the html element
+// another function
+
+
+var myCollections2 = [];
+
+function addMe2(){
+    var myText2 = document.getElementById("myText2").value;
+    myCollections2.push(myText2);
+
+    document.getElementById("myResultNow").innerHTML = "";    
+    for( var a = 0 ; a < myCollections2.length ; a++ ) {
+            var currValue = myCollections2[a] + "<br>";
+            var currResultValue = document.getElementById("myResultNow").innerHTML;
+            document.getElementById("myResultNow").innerHTML = currResultValue + currValue;
+        }
+} 
+var test = document.getElementById("myResultNow").innerHTML;
+console.log(test);
+
